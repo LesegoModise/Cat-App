@@ -1,0 +1,39 @@
+body {
+    background-color: #818479;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cat {
+    background-color: #B5CBB7;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid #3D403A;
+    flex: 1;
+}
+
+
+@media (min-width: 960px) {
+    
+    .cats {
+        display: flex;
+    }
+
+}
+
+fieldset {
+    margin: 1em;
+    border: 0;
+}
+
+button {
+    padding: 1em;
+    border: 3px solid;
+    border-radius: 0.5em;
+}
+
+input {
+    padding: 1em;
+    border: 3px solid;
+    border-radius: 0.5em;
+}
