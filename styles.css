@@ -12,12 +12,34 @@ body {
     flex: 1;
 }
 
+.top3 {
+    padding-left: 40px;
+}
 
-@media (min-width: 960px) {
-    
+
+@media screen and (min-width: 600px) {
+    /* .cats {
+        display: flex;
+    } */
+
+    .cat {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
     .cats {
         display: flex;
     }
+
+    .cat {
+        padding: 2px;
+    }
+
+    /* ol {
+        padding: 2px;
+    } */
+
 
 }
 
